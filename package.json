@@ -1,4 +1,48 @@
 {
+  "name": "angular2-skeleton",
+  "version": "2.0.0",
+  "description": "Rascal's Angular2 Skeleton project",
+  "scripts": {
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "@angular/common": "*",
+    "@angular/compiler": "^2.4.9",
+    "@angular/core": "^2.4.9",
+    "@angular/forms": "^2.4.9",
+    "@angular/http": "^2.4.9",
+    "@angular/platform-browser": "^2.4.9",
+    "@angular/platform-browser-dynamic": "^2.4.9",
+    "@angular/router": "^3.4.9",
+    "@types/core-js": "^0.9.37",
+    "@types/node": "^7.0.8",
+    "angular-in-memory-web-api": "^0.3.1",
+    "bootstrap": "^3.3.7",
+    "concurrently": "^3.4.0",
+    "core-js": "*",
+    "lite-server": "^2.3.0",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.2.0",
+    "systemjs": "^0.20.9",
+    "typescript": "^2.2.1",
+    "zone.js": "^0.8.0"
+  },
+  "devDependencies": {
+    "@types/core-js": "*",
+    "@types/node": "*",
+    "concurrently": "*",
+    "lite-server": "*",
+    "typescript": "*"
+  }
+}
     "name": "angular2-skeleton",
     "version": "1.0.0",
     "description": "Rascal's Angular2 Skeleton project",
